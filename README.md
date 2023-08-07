@@ -5,7 +5,7 @@
 Здесь я показываю свои исследования и анализы, связанные с проведением экспериментов и оптимизацией стратегий.
 Не пропусти интересные кейсы и выводы, сделанные в процессе моих А/B тестов. Их анализ позволяет лучше понимать пользовательское поведение.
 
-**Projects** [Dating AB test](https://github.com/akotomin/data_analyst_portfolio/blob/main/AB%20testings/dating%20AB%20test%20.ipynb) и [Checking new AB test algorithm](https://github.com/akotomin/data_analyst_portfolio/blob/main/AB%20testings/new%20algorithm%20AB%20test.ipynb)
+**Projects** [Dating AB test](https://github.com/akotomin/AB_tests/blob/main/dating%20AB%20test%20.ipynb) и [Checking new AB test algorithm](https://github.com/akotomin/AB_tests/blob/main/new%20algorithm%20AB%20test.ipynb)
 
 **Description**: В данных проектах был проведен анализ A/B тестирования для различных платформ с использованием статистических тестов, таких как Хи-квадрат Пирсона, T-test, Mann–Whitney U test и Bootstrap. 
 Первоначально был выполнен EDA анализ (анализ исследования данных) для ознакомления с общими характеристиками данных и выявления особенностей распределения. В ходе EDA анализа были построены графики, что помогло более глубоко понять данные и выделить потенциально важные зависимости.
