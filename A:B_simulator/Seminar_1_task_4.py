@@ -36,6 +36,28 @@ class DataService:
         :return df (pd.DataFrame): датафрейм с подмножеством данных.
         """
         # YOUR_CODE_HERE
+        df = self.table_name_2_table[table_name]
+
+        if begin_date is not None and end_date is not None:
+            date_filtred_df = df.query('date >= @begin_date and date < @end_date')
+        elif begin_date is None:
+            date_filtred_df = df.query('date < @end_date')
+        elif end_date is None:
+            date_filtred_df = df.query('date >= @begin_date')
+        else:
+            date_filtred_df = df
+
+        if user_ids is not None:
+            users_filtred_df = date_filtred_df[df['user_id'].isin(user_ids)]
+        else:
+            users_filtred_df = date_filtred_df
+
+        if columns is not None:
+            filtred_df = users_filtred_df[columns]
+        else:
+            filtred_df = users_filtred_df
+
+        return filtred_df
 
 
 
