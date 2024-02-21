@@ -80,8 +80,6 @@ class ExperimentsService:
         return ci, pvalue
 
 
-
-
     def get_pvalue(self, metrics_a_group, metrics_b_group, design):
         """Применяет статтест, возвращает pvalue.
 
